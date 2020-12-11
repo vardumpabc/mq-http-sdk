@@ -16,7 +16,7 @@ Add require to your `composer.json`
 ```json
 {
   "require": {
-     "aliyunmq/mq-http-sdk": ">=1.0.0"
+     "vardumpabc/mq-http-sdk": ">=1.0.0"
   }
 }
 ```
@@ -25,18 +25,4 @@ Use Composer to install requires
 composer install
 ``` 
 
-*Note: php version>=5.5.0, and xml extension of php is required.*
-
-## Samples
-
-### V1.0.0 Samples
-[Publish Message](https://github.com/aliyunmq/mq-http-samples/blob/master/php/Producer.php)
-
-[Consume Message](https://github.com/aliyunmq/mq-http-samples/blob/master/php/Consumer.php)
-
-### V1.0.1 Samples
-[Publish Message](https://github.com/aliyunmq/mq-http-samples/tree/101-dev/php/Producer.php)
-
-[Consume Message](https://github.com/aliyunmq/mq-http-samples/tree/101-dev/php/Consumer.php)
-
-[Transaction Message](https://github.com/aliyunmq/mq-http-samples/tree/101-dev/php/TransProducer.php)
+*Note: php version>=7.0, and xml extension of php is required.*
